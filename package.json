@@ -4,6 +4,8 @@
   "description": "Read emails from gmail",
   "main": "index.js",
   "scripts": {
+    "dev": "npx nodemon .",
+    "start": "NODE_ENV=production node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
