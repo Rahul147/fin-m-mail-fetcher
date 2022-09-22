@@ -1,0 +1,22 @@
+{
+  "name": "fin-m-gmail-client",
+  "version": "1.0.0",
+  "description": "Read emails from gmail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gmail",
+    "finance"
+  ],
+  "author": "rahuldharan@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "google-auth-library": "^8.5.2",
+    "googleapis": "^105.0.0"
+  }
+}
